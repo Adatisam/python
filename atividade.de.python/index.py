@@ -1,4 +1,7 @@
-print("Olá, mundo!")
-nome = input('Qual é seu nome?')
-idade = input('Qual sua idade?')
-print('Confirmando seu nome é', nome,'e sua idade é ', idade)
+num1 = int(input('Digite um número: '))
+num2 = int(input('Digite outro número:6 '))
+soma = int(num1 + num2)
+print('A soma de', num1, 'e', num2, 'é igual a {}'.format(soma))
+
+texto = input('Digite qualquer comando: ')
+print(type(texto))
