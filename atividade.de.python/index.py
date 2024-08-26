@@ -1,7 +1,6 @@
-num1 = int(input('Digite um número: '))
-num2 = int(input('Digite outro número:6 '))
-soma = int(num1 + num2)
-print('A soma de', num1, 'e', num2, 'é igual a {}'.format(soma))
-
-texto = input('Digite qualquer comando: ')
-print(type(texto))
+print('Para sabermos quanto de tinta sera usado, Digite:')
+lado1 = float(input('Um lado da parede: '))
+lado2 = float(input('Um outro lado da parede: '))
+altura = float(input('A altura da parede: '))
+volume = lado1 * lado2 * altura
+print('Para pintar tudo sera necessario', volume, 'm3')
