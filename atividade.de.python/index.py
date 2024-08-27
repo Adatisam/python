@@ -1,6 +1,12 @@
-print('Para sabermos quanto de tinta sera usado, Digite:')
-lado1 = float(input('Um lado da parede: '))
-lado2 = float(input('Um outro lado da parede: '))
-altura = float(input('A altura da parede: '))
-volume = lado1 * lado2 * altura
-print('Para pintar tudo sera necessario', volume, 'm3')
+import random
+aluno1 = str(input('Primeiro aluno: '))
+aluno2 = str(input('Segundo aluno: '))
+aluno3 = str(input('Terceiro aluno: '))
+aluno4 = str(input('Quarto aluno: '))
+lista = [aluno1, aluno2, aluno3, aluno4]
+lista1 = [aluno1, aluno2, aluno3, aluno4]
+escolhido = random.choice(lista)
+random.shuffle(lista1)
+print('O aluno escolhido foi {}' .format(escolhido))
+print('A ordem será')
+print(lista)
