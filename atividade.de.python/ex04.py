@@ -1,5 +1,13 @@
-import pygame
-pygame.init()
-pygame.mixer.music.load('nome.mp3')
-pygame.mixer.music.play()
-pygame.event.wait()
+frase = '  Curso em video  '
+print(frase[3])
+len(frase)
+print(frase.count('1:'))
+print(frase.find('e'))
+print(frase.replace('Curso', 'Python'))
+print(frase.upper())
+print(frase.lower())
+print(frase.capitalize())
+print(frase.title())
+print(frase.strip())
+print(frase.split())
+print(frase.join('__'))
