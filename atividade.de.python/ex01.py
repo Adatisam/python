@@ -1,9 +1,6 @@
-nome = str(input('Digite seu nome: ')) .strip()
-print('Analisando o nome')
-print('Seu nome em maiúsculas: {}' .format(nome.upper()))
-print('Seu nome em minúsculas: {}' .format(nome.lower()))
-print('Seu nome tem ao todo: {}' .format(len(nome) - nome.count(' ')))
-separa = nome.split()
-print('Seu primeiro nome é {} e ele tem {} letras' .format(separa[0], len(separa[0])))
-print('Seu último nome é {} e ele tem {} letras' .format(separa[len(separa) - 1], len(separa[len(separa) - 1])))
-print('Seu nome tem Adati? {}' .format( 'Adati' in nome))
+vel = int(input('Digite a velocidade: '))
+multa = float((vel/4) * 7.50)
+if vel < 80: 
+    print('Tudo certo, dirija com segurança"')
+else:
+    print('MULTADO, sua conta é de R${:.2f}' .format(multa))

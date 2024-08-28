@@ -1,8 +1,8 @@
-import math 
-ang = float(input('Digite o angulo que você deseja: '))
-seno = math.sin(math.radians(ang))
-coss = math.cos(math.radians(ang))
-tang = math.tan(math.radians(ang))
-print('O ângulo de {} tem o SENO de {:.2f}' .format(ang, seno))
-print('O ângulo de {} tem o COSSENO de {:.2f}' .format(ang, coss))
-print('O ângulo de {} tem o TANGENTE de {:.2f}' .format(ang, tang))
+distancia = float(input('Qual a distância da sua viagem? (km) '))
+if distancia < 200:
+    distancia1 = float(distancia * 0.50)
+    print('O valor da viagem fica R${:.2f}' .format(distancia1))
+else:
+    distancia1 = float(distancia * 0.45)
+    print('O valor da viagem fica R${:.2f}' .format(distancia1))
+print('Boa viajem!')
