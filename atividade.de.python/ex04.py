@@ -1,6 +1,6 @@
 frase = '  Curso em video  '
 print(frase[3])
-len(frase)
+print(len(frase))
 print(frase.count('1:'))
 print(frase.find('e'))
 print(frase.replace('Curso', 'Python'))
