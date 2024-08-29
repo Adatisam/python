@@ -9,7 +9,7 @@ print('-=-' *10)
 print('PROCESSANDO...')
 sleep(1)
 if num == numal:
-    print('ACERTOOU!')
+    print('\033[0;30;42mACERTOOU!\033[m')
 else: 
-    print('ERROOU!')
+    print('\033[0;30;41mERROOU!\033[m')
 print('o número escolhido foi {}' .format(numal))
