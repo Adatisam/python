@@ -1,0 +1,13 @@
+import moeda
+p = float(input('Digite o preço: '))
+au = int(input('Digite o valor em % para aumentar o preço: '))
+di = int(input('Digite o valor em % para diminuir  o preço: '))
+print('-='*20)
+print('RESUMO DO VALOR'.center(20))
+print('-='*20)
+print(f'Analizando o valor {moeda.moeda(p)}')
+print('-='*20)
+print(f'A metade do preço é: \t{moeda.metade(p, True)}.')
+print(f'O dobro de é: \t\t{moeda.dobro(p, True)}.')
+print(f'Os {au}% de aumento vai: \t{moeda.aumentar(p, au, True)}.')
+print(f'Os {di}% de redução vai: \t{moeda.diminuir(p, di, True)}.')
